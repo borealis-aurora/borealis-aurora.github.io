@@ -55,6 +55,7 @@ header span{
     background-blend-mode: screen;
 }
 
+
 .img-proyecto1 h3{
     color:#134B70; 
 }
@@ -84,6 +85,24 @@ header span{
     font-size: 1.5em;
     text-align: center;
     padding: 4px;
+}
+
+/*Footer*/
+footer .icon-footer i{
+    color: #508C9B; 
+}
+
+footer p{
+    color: #508C9B
+}
+footer p a{
+    text-decoration:none;
+}
+
+/*Favicon*/
+
+.page-icon{
+    color:pink;
 }
 
 

@@ -16,6 +16,9 @@
   <!--CDN Bootstrap icons-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+  <!--Ícono página / Favicon-->
+  <link rel="shortcut icon" href="/assets/pink-slash.png" type="image/x-icon" fill="red">
+
   <!--Enlace con style.css-->
   <link rel="stylesheet" href="style.css">
 
@@ -68,7 +71,7 @@
           <div class="col d-flex align-items-start">
             <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
             <!--Ícono desarrollo web-->
-            <i class="bi bi-window"></i>
+            <i class="bi bi-window icon-habilidades"></i>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Desarrollo Web</h3>
@@ -78,7 +81,7 @@
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <i class="bi bi-laptop"></i>
+              <i class="bi bi-laptop icon-habilidades"></i>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Programación en Python</h3>
@@ -88,7 +91,7 @@
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              <i class="bi bi-magic"></i>
+              <i class="bi bi-magic icon-habilidades"></i>
             </div>
             <div>
               <h3 class="fs-2 text-body-emphasis">Diseño e Ilustración</h3>
@@ -187,7 +190,7 @@
     </section>
 
     <section id="testimonios">
-      <h2 class="px-5 py-4 my-4 pb-2 border-bottom">Testimonios</h2>
+      <h2 class="px-4 py-4 my-4 pb-2 border-bottom">Testimonios</h2>
       <!--Carrusel-->
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -198,10 +201,10 @@
             <div class="card border-0" style="width: 18rem;">
               <img src="/assets/white.png" class="rounded card-img-top" alt="...">
               <div class="card-body">
+                <h5 class="card-title text-center px-5">Card title</h5>
                 <div class="card-header text-center">
                   Featured
                 </div>
-                <h5 class="card-title text-center px-5">Card title</h5>
                 <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
               </div>
@@ -215,10 +218,10 @@
             <div class="card border-0" style="width: 18rem;">
               <img src="/assets/rain.png" class="rounded card-img-top" alt="...">
               <div class="card-body">
+                <h5 class="card-title text-center">Card title</h5>
                 <div class="card-header text-center">
                   Featured
                 </div>
-                <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
               </div>
@@ -232,10 +235,10 @@
             <div class="card border-0" style="width: 18rem;">
               <img src="/assets/tgcf2.png" class="rounded card-img-top" alt="...">
               <div class="card-body">
+                <h5 class="card-title text-center">Card title</h5>
                 <div class="card-header text-center">
                   Featured
                 </div>
-                <h5 class="card-title text-center">Card title</h5>
                 <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -257,24 +260,19 @@
     <section id="contacto">
       <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+          <!--Ícono Jumbotron-->
+          <!--<i class="bi bi-envelope" style="height:100px; width:100px;"></i>-->
+          <i class="bi bi-mailbox-flag" style="font-size:4em; color:#134B70;"></i>
+          <h1 class="text-body-emphasis">¡Contáctame!</h1>
           <p class="col-lg-8 mx-auto fs-5 text-muted">
-            This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a
-            responsive <code>.col-*</code> class, and a customized call to action.
+            Contáctame para desarrollar un proyecto de desarrollo web. 
           </p>
           <div class="d-inline-flex gap-2 mb-5">
-            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-              Call to action
-              <svg class="bi ms-2" width="24" height="24">
-                <use xlink:href="#arrow-right-short"></use>
-              </svg>
-            </button>
+            <a href="mailto:a.pinzonarzola@ugto.mx">
             <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
-              Secondary link
+              Correo
             </button>
+            </a>
           </div>
         </div>
       </div>
@@ -283,14 +281,34 @@
 
   <!--Footer-->
   <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    <ul class="nav justify-content-center border-bottom bg-muted pb-3 mb-3">
+      <li class="nav-item">
+        <a href="https://github.com/borealis-aurora" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+          <i class="bi bi-github"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="https://www.linkedin.com/in/aurora-pinz%C3%B3n-arzola-9aa8721aa/" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </li>
     </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <p class="text-center">Creado por Aurora Pinzón Arzola en el botcamp <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas</a> PRO </p>
   </footer>
 
 
