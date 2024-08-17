@@ -4,34 +4,40 @@
 
 /*Header*/
 header{
-    background-color: #EEEEEE;
+    background-color: #604CC3;
 }
 
 header span{
-    color:#201E43; 
+    color:#F075AA; 
+    font-weight: 600; 
 }
 
 .nav-item a{
-    color:#134B70; 
+    color:#FFF6E9; 
 }
 
 /*Link visitado*/
 .nav-item a:visited{
-    color:#134B70; 
+    color:#80C4E9; 
 }
 
 .nav-item a:hover{
-    color: #508C9B; 
+    color: #80C4E9; 
 }
 
+/*Botón Inicio Header*/
 #nav-button{
-    background-color: #508C9B;
+    background-color: #80C4E9;
 }
 
 #rounded{
     border-radius: 100px;
 }
 
+
+#sobre-mi #app{
+    color:#604CC3;
+}
 /*
 .sobre-mi{
     background-image:url("/bg2.jpg"); 
@@ -42,7 +48,7 @@ header span{
 
 /*Ícono Desarrollo Web*/
 .icon-square .bi{
-    color:#134B70;
+    color:#F075AA;
     width: auto;
     /*border-radius: 20px;*/
 }
@@ -51,13 +57,20 @@ header span{
 .img-proyecto1{
     background-image: url('assets/pinterest3.png');
     background-repeat: no-repeat; 
-    background-size: 600px;
-    background-blend-mode: screen;
+    background-size: 700px;
+    background-blend-mode: multiply;
 }
 
 
 .img-proyecto1 h3{
-    color:#134B70; 
+    color:#80C4E9; 
+}
+
+.img-proyecto2{
+    background-image: url('assets/Babymetal.png');
+    background-repeat: no-repeat; 
+    background-size: 800px;
+    background-blend-mode: multiply;
 }
 
 .img-proyecto3{
@@ -65,11 +78,11 @@ header span{
     background-repeat: no-repeat; 
     background-position: center;
     background-size: 550px;
-    background-blend-mode: screen;
+    background-blend-mode: multiply;
 }
 
 .img-proyecto3 h3{
-    color:#134B70; 
+    color:#80C4E9; 
 }
 
 #habilidades{
@@ -77,8 +90,8 @@ header span{
 }
 
 .icon-square .bi{
-    background-color: #134B70;
-    color: beige;
+    background-color: #80C4E9;
+    color: #FFF6E9;
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -87,22 +100,27 @@ header span{
     padding: 4px;
 }
 
+/*Imagenes proyectos*/
+.me-auto #pagina-web{
+    color:white; 
+}
+
+/*Carrousel*/
+#testimonios .container{
+  display: flex; 
+}
+
 /*Footer*/
 footer .icon-footer i{
-    color: #508C9B; 
+    color: #604CC3; 
 }
 
 footer p{
-    color: #508C9B
+    color: #604CC3;
 }
 footer p a{
     text-decoration:none;
-}
-
-/*Favicon*/
-
-.page-icon{
-    color:pink;
+    color:#F075AA;
 }
 
 /*Typewritter text*/
