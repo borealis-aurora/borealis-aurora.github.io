@@ -24,4 +24,4 @@ Aquí puedes encontrar mi [Portafolio](https://borealis-aurora.github.io/) 👀
 * Contacto
 
 ### Captura del proyecto
-![Vista previa página](/assets/captura-portafolio.png)
+![Vista previa página](assets/project-cover.png)
